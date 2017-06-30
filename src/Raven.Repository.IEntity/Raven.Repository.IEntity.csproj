@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>net40;net45;netstandard1.6</TargetFrameworks>
-    <AssemblyName>Repository.IEntity</AssemblyName>
+    <AssemblyName>Raven.Repository.IEntity</AssemblyName>
+    <RootNamespace>Raven.Repository.IEntity</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -10,13 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Raven.Repository.IEntity.csproj.backup" />
     <None Remove="Repository.IEntity.csproj.backup" />
-  </ItemGroup> 
-
-  <ItemGroup>
-    <Compile Include="..\Raven.Repository.IEntity\IAutoIncr.cs" Link="IAutoIncr.cs" />
-    <Compile Include="..\Raven.Repository.IEntity\IEntity.cs" Link="IEntity.cs" />
-    <Compile Include="..\Raven.Repository.IEntity\IIsDel.cs" Link="IIsDel.cs" />
   </ItemGroup>
 
 </Project>
