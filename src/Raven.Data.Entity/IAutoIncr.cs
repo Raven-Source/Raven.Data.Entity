@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿#if Repository_IEntity
 namespace Repository.IEntity
+#else
+namespace Raven.Data.Entity
+#endif
 {
     /// <summary>
     /// 自增Entity

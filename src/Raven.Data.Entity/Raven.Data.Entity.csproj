@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;net46;netstandard1.0</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIconUrl>http://res-1251080116.costj.myqcloud.com/raven4.png</PackageIconUrl>
+    <Authors>Yi Liang</Authors>
+    <Company />
+    <Product />
+    <Description>Raven.Data.Entity</Description>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+</Project>
