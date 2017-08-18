@@ -7,7 +7,9 @@
     <Company>Yi Liang</Company>
     <Description>Repository.IEntity</Description>
     <PackageIconUrl>http://res-1251080116.costj.myqcloud.com/raven4.png</PackageIconUrl>
-    <Version>1.0.3</Version>
+    <Version>2.0.0</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -21,7 +23,7 @@
   <ItemGroup>
     <Compile Include="..\Raven.Data.Entity\IAutoIncr.cs" Link="IAutoIncr.cs" />
     <Compile Include="..\Raven.Data.Entity\IEntity.cs" Link="IEntity.cs" />
-    <Compile Include="..\Raven.Data.Entity\IIsDel.cs" Link="IIsDel.cs" />
+    <Compile Include="..\Raven.Data.Entity\IVirtualDelete.cs" Link="IVirtualDelete.cs" />
   </ItemGroup>
 
 </Project>
