@@ -4,13 +4,23 @@
     <TargetFrameworks>net45;net46;netstandard1.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageIconUrl>http://res-1251080116.costj.myqcloud.com/raven4.png</PackageIconUrl>
-    <Authors>Yi Liang</Authors>
-    <Company />
+    <Authors>Yi.Liang</Authors>
+    <Company>indifer@126.com</Company>
     <Product />
     <Description>Raven.Data.Entity</Description>
     <Version>2.0.0</Version>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <DocumentationFile>bin\Release\net45\Raven.Data.Entity.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net46|AnyCPU'">
+    <DocumentationFile>bin\Release\net46\Raven.Data.Entity.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.0|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\Raven.Data.Entity.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
