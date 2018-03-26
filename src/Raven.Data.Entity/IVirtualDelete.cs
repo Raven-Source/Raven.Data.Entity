@@ -1,12 +1,10 @@
 ﻿#if Repository_IEntity
 namespace Repository.IEntity
-#else
-namespace Raven.Data.Entity
-#endif
 {
     /// <summary>
     /// 虚拟删除约束接口
     /// </summary>
+    [System.Obsolete("请使用IDelible")]
     public interface IVirtualDelete
     {
         /// <summary>
@@ -15,3 +13,5 @@ namespace Raven.Data.Entity
         bool IsDel { get; set; }
     }
 }
+#endif
+

@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net40</TargetFramework>
+    <TargetFrameworks>net40;netstandard1.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Yi Liang</Authors>
     <Company>Yi Liang</Company>
     <Description>Repository.IEntity</Description>
     <PackageIconUrl>http://res-1251080116.costj.myqcloud.com/raven4.png</PackageIconUrl>
-    <Version>2.0.0</Version>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.1</Version>
+    <AssemblyVersion>2.0.0.1</AssemblyVersion>
+    <FileVersion>2.0.0.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -20,8 +20,13 @@
     <DefineConstants>TRACE;DEBUG;0_0;Repository_IEntity</DefineConstants>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\$(TargetFramework)\Repository.IEntity.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="..\Raven.Data.Entity\IAutoIncr.cs" Link="IAutoIncr.cs" />
+    <Compile Include="..\Raven.Data.Entity\IDelible.cs" Link="IDelible.cs" />
     <Compile Include="..\Raven.Data.Entity\IEntity.cs" Link="IEntity.cs" />
     <Compile Include="..\Raven.Data.Entity\IVirtualDelete.cs" Link="IVirtualDelete.cs" />
   </ItemGroup>

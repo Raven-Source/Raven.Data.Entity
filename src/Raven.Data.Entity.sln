@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raven.Data.Entity", "Raven.Data.Entity\Raven.Data.Entity.csproj", "{D533E75A-A0A3-42B3-B4F0-FF8321CE9634}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.IEntity", "Repository.IEntity\Repository.IEntity.csproj", "{07717DE9-ACC0-40CF-A35D-B2528F8DEC5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.IEntity", "Repository.IEntity\Repository.IEntity.csproj", "{07717DE9-ACC0-40CF-A35D-B2528F8DEC5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B252F46-3AD1-46B5-A9D7-A7976FBC8CDC}
 	EndGlobalSection
 EndGlobal
